@@ -1,5 +1,0 @@
-rm ArMzi-6984
-wget https://playoverwatch.com/en-us/career/pc/us/ArMzi-6984
-
-python fetch.py
-cp sr-armzi ~/webhome/script/sr-armzi
