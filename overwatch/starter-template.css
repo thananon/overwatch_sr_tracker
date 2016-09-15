@@ -1,0 +1,44 @@
+body {
+      padding-top: 50px;
+  }
+  .starter-template {
+        padding: 15px 15px;
+        text-align: center;
+      }
+  .text-left {
+        padding: 10px 15px;
+        padding-bottom : 2px;
+        text-align: left;
+  }
+  .container-left-half {
+        padding: 15px 15px;
+        width: 80%;
+        float: left;
+        align: left;
+
+  }
+  .container-right-half {
+        padding: 15px 15px;
+        width: 20%;
+        float: left;
+
+  }
+  .padding-125px {
+        height: 50px;
+        width: 100%;
+  }
+  .tr-green{
+    bgcolor: rgba(131,255,13,0.3);
+
+  }
+
+td,tr,th {
+    text-align: center;
+    font-weight: bold;
+}
+    .green {
+        background-color: rgba(132, 255, 12, 0.7);
+    }
+    .red {
+        background-color: rgba(255, 0, 0, 0.7);
+    }
