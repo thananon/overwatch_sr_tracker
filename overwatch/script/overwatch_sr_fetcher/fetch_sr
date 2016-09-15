@@ -1,5 +1,8 @@
-rm ArMzi-6984
-wget https://playoverwatch.com/en-us/career/pc/us/ArMzi-6984
+PREFIX=${HOME}/webhome/overwatch/script/overwatch_sr_fetcher
+echo $PREFIX
 
-python fetch.py
-cp sr-armzi ~/webhome/overwatch/script/sr-armzi
+rm $PREFIX/ArMzi-6984
+wget -P $PREFIX  https://playoverwatch.com/en-us/career/pc/us/ArMzi-6984
+
+python $PREFIX/fetch.py
+cp $PREFIX/sr-armzi ~/webhome/overwatch/script/sr-armzi

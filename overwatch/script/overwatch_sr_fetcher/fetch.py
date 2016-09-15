@@ -1,8 +1,9 @@
 import re
 
-f = open('ArMzi-6984','r')
+prefix="/home/tpatinya/webhome/overwatch/script/overwatch_sr_fetcher/"
+f = open(prefix+'ArMzi-6984','r')
 
-w = open("sr-armzi",'r+')
+w = open(prefix+"sr-armzi",'r+')
 if w:
     for line in w:
         last = line
@@ -13,7 +14,7 @@ else:
     last = -1
  
 
-w = open("sr-armzi",'a+')
+w = open(prefix+"sr-armzi",'a+')
 
 for line in f:
     res = re.findall('\>([0-9]{4})\<',line)
